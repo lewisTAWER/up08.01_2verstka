@@ -1,0 +1,359 @@
+@font-face {
+	font-family: 'Epilogue Regular';
+	src: url(fonts/Epilogue-Regular.ttf);
+}
+@font-face {
+	font-family: 'Epilogue Light';
+	src: url(fonts/Epilogue-Light.ttf);
+}
+@font-face {
+	font-family: 'Epilogue ExtraLight';
+	src: url(fonts/Epilogue-ExtraLight.ttf);
+}
+@font-face {
+	font-family: 'Epilogue ExtraBold';
+	src: url(fonts/Epilogue-ExtraBold.ttf);
+}
+@font-face {
+	font-family: 'Epilogue Thin';
+	src: url(fonts/Epilogue-Thin.ttf);
+}
+* {
+	padding: 0;
+	margin: 0;
+}
+ul {
+	list-style: none;
+}
+body {
+	width: 1440px;
+	margin: 0 auto;
+}
+nav {
+	width: 1038px;
+	margin: 0 auto;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 25px;
+}
+nav .links {
+	display: flex;
+	align-items: center;
+	gap: 32px;
+}
+nav .links .menu {
+	display: none;
+}
+.links a {
+	text-decoration: none;
+	font-family: 'Epilogue Regular';
+	font-size: 16px;
+	color: #2d2c2c;
+	text-decoration: none;
+	font-weight: 400;
+}
+.links .talk {
+	background-color: #2d2c2c;
+	color: white;
+	padding: 10px 22px;
+}
+
+/*---------------------------------------------------------------*/
+
+header {
+	width: 1038px;
+	margin: 0 auto;
+	margin-top: 20px;
+	padding: 100px 0;
+
+	background: url(img/nigga_woman.png);
+	background-position: right;
+	background-repeat: no-repeat;
+}
+.header_text {
+	width: 700px;
+}
+.header_text h1 {
+	font-family: 'Epilogue ExtraBold';
+	font-size: 150px;
+	font-weight: 800;
+	line-height: 117.5%;
+	width: 700px;
+	color: #2d2c2c;
+}
+main {
+	margin-top: 100px;
+}
+.brefis {
+	background-color: black;
+	width: 1440px;
+	margin: 0 auto;
+}
+.brefis_text {
+	margin: 0 auto;
+	padding: 102px 52px 124px 52px;
+
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 15px;
+	grid-row-gap: 60px;
+}
+.brefis_text article {
+	width: 440px;
+	display: flex;
+	gap: 35px;
+}
+.brefis article .cifri {
+	font-family: 'Epilogue Thin';
+	font-size: 70px;
+	font-weight: 100;
+	color: white;
+	display: flex;
+	align-items: center;
+}
+.brefis_text .text_cifr {
+	display: grid;
+	gap: 5px;
+	width: 320px;
+}
+.text_cifr h3 {
+	color: white;
+	font-family: 'Epilogue Light';
+	font-size: 40px;
+	font-weight: 300;
+}
+.text_cifr p {
+	font-family: 'Epilogue ExtraLight';
+	color: white;
+	font-size: 18px;
+	font-weight: 200;
+	line-height: 123%;
+}
+
+/*---------------------------------------------------------------*/
+
+.project {
+	width: 1038px;
+	margin: 0 auto;
+	margin-top: 170px;
+}
+.project h1 {
+	color: #2d2c2c;
+	font-family: 'Epilogue ExtraBold';
+	font-size: 120px;
+	font-weight: 800;
+	line-height: 93.5%;
+}
+.background-tint {
+	background-color: rgba(0, 0, 0, 0.6);
+	background-blend-mode: multiply;
+}
+.project_case {
+	display: grid;
+	gap: 80px;
+}
+.phon {
+	background-image: url(img/phon_project.png);
+	height: 447px;
+	display: flex;
+	align-items: center;
+	margin-top: 70px;
+}
+.phon_2 {
+	background-image: url(img/phon\ 2.png);
+	height: 447px;
+	display: flex;
+	align-items: center;
+}
+.phon_3 {
+	background-image: url(img/phon\ 3.png);
+	height: 447px;
+	display: flex;
+	align-items: center;
+}
+.text_phons {
+	width: 947px;
+	margin: 0 auto;
+}
+.text_phons .mental {
+	font-family: 'Epilogue ExtraBold';
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 150%;
+	color: white;
+}
+.text_v_phone {
+	margin-top: 16px;
+	display: flex;
+	justify-content: space-between;
+}
+.text_v_phone_1 {
+	width: 433px;
+}
+.text_v_phone_2 {
+	width: 433px;
+	display: grid;
+	gap: 25px;
+}
+.text_v_phone_1 h3 {
+	font-family: 'Epilogue ExtraLight';
+	font-size: 45px;
+	font-weight: 200;
+	line-height: 120%;
+	color: white;
+}
+.text_v_phone_1 h3 p {
+	font-weight: 900;
+}
+.text_v_phone_2 p {
+	font-family: 'Epilogue Regular';
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 150%;
+	color: white;
+}
+
+/*---------------------------------------------------------------*/
+
+.aboutme {
+	background-color: #131212;
+	margin-top: 170px;
+	margin-bottom: 246px;
+	padding-top: 110px;
+	padding-bottom: 205px;
+}
+.aboutme1 {
+	width: 1035px;
+	margin: 0 auto;
+	display: flex;
+	gap: 79px;
+}
+.aboutme1 .firts_about h3 {
+	font-family: 'Epilogue ExtraBold';
+	font-size: 16px;
+	font-weight: 900;
+	color: #f2f2f2;
+}
+.firts_about h2 {
+	margin-top: 26px;
+	font-family: 'Epilogue ExtraLight';
+	font-size: 48px;
+	font-weight: 254;
+	line-height: 120%;
+	color: #f2f2f2;
+	width: 400px;
+	letter-spacing: 3px;
+}
+.firts_about img {
+	margin-top: 326px;
+}
+.second_about p {
+	width: 467px;
+	font-family: 'Epilogue Regular';
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 150%;
+	color: #f2f2f2;
+}
+.second_about img {
+	width: 437px;
+	position: relative;
+	left: -16px;
+	margin-top: 204px;
+}
+
+/*---------------------------------------------------------------*/
+
+.first_footer {
+	display: flex;
+	justify-content: space-between;
+	width: 1064px;
+	margin: 0 auto;
+}
+.logo_with_text {
+	display: grid;
+	gap: 20px;
+}
+.logo_with_text ul {
+	display: flex;
+	align-items: center;
+	gap: 32px;
+}
+.logo_with_text ul a {
+	color: black;
+	text-decoration: none;
+	font-family: 'Epilogue Regular';
+	font-size: 16px;
+	font-weight: 400;
+}
+.email_list {
+	display: grid;
+	gap: 16px;
+}
+.email_list h3 {
+	font-family: 'Epilogue ExtraBold';
+	font-size: 16px;
+	font-weight: 1900;
+}
+.links_footers {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+}
+.links_footers a,
+input {
+	border: 2px solid black;
+	padding: 15px 10px;
+	text-decoration: none;
+	color: black;
+	font-family: 'Epilogue Regular';
+	font-size: 16px;
+	font-weight: 400;
+}
+.links_footers .enter_email {
+	width: 233px;
+}
+.email_list p {
+	color: black;
+	font-family: 'Epilogue Regular';
+	font-size: 12px;
+	font-weight: 400;
+}
+.email_list span {
+	text-decoration-line: underline;
+}
+
+/*---------------------------------------------------------------*/
+
+.line {
+	border-top: 0.1px solid black;
+	margin-top: 122px;
+}
+
+/*---------------------------------------------------------------*/
+
+.second_footer {
+	width: 1046px;
+	margin: 65px auto 56px auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.second_footer p {
+	font-family: 'Epilogue Light';
+	font-size: 14px;
+	font-weight: 600;
+}
+.brands {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+}
+
+/*---------------------------------------------------------------*/
+
+.dropdown {
+	display: none;
+}

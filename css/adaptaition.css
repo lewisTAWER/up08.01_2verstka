@@ -1,0 +1,251 @@
+@media only screen and (max-width: 375px) {
+	nav {
+		width: 322px;
+		margin: 0 auto;
+		display: flex;
+		justify-content: space-between;
+	}
+	body {
+		width: 100%;
+		margin: 0 auto;
+	}
+	header {
+		width: 345px;
+		height: 620px;
+		margin: 46px auto 0 auto;
+
+		background-size: 340px 340px;
+		background-position: top 450px right 50%;
+	}
+	nav .links {
+		display: flex;
+		align-self: center;
+		gap: 15px;
+	}
+	nav .links .menu {
+		display: inline-block;
+	}
+	.links a {
+		display: none;
+	}
+	.links .talk {
+		display: inline-block;
+	}
+	.header_text {
+		width: 360px;
+	}
+	.header_text h1 {
+		width: 336px;
+		font-size: 75px;
+	}
+	.header_text .h2 {
+		width: 357px;
+	}
+	.black_woman {
+		width: 343px;
+	}
+
+	.brefis {
+		width: 375px;
+		margin: 106px 0 0 0;
+	}
+	.brefis_text {
+		margin: 0;
+
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+
+		padding: 42px 29px;
+	}
+	.brefis_text article {
+		width: 320px;
+		display: flex;
+		gap: 20px;
+	}
+	.brefis_text .text_cifr {
+		display: grid;
+		gap: 3px;
+		width: 220px;
+	}
+	.brefis article .cifri {
+		font-size: 45px;
+	}
+	.text_cifr h3 {
+		font-size: 25px;
+	}
+	.text_cifr p {
+		font-size: 14px;
+	}
+
+	.project {
+		width: 348px;
+		margin: 170px auto;
+	}
+	.project_case {
+		display: grid;
+		gap: 60px;
+		margin-top: 70px;
+	}
+	.project h1 {
+		font-size: 65px;
+		margin: 0 auto;
+	}
+	.phon {
+		width: 344px;
+		margin: 0 auto;
+		display: grid;
+		height: 620px;
+		background-size: 1040px 620px;
+	}
+	.phon_2 {
+		width: 344px;
+		margin: 0 auto;
+		display: grid;
+		height: 620px;
+		background-size: 1040px 620px;
+	}
+	.phon_3 {
+		width: 344px;
+		margin: 0 auto;
+		display: grid;
+		height: 620px;
+		background-size: 1040px 620px;
+		background-position: left top;
+	}
+	.text_phons {
+		width: 300px;
+		margin-top: 62px;
+	}
+	.text_v_phone {
+		display: grid;
+		width: 300px;
+		gap: 22px;
+	}
+	.text_phons .mental {
+		font-size: 15px;
+	}
+	.text_v_phone_1 {
+		width: 300px;
+	}
+	.text_v_phone_2 {
+		width: 300px;
+		display: grid;
+		gap: 45px;
+	}
+	.text_v_phone_1 h3 {
+		font-size: 43px;
+	}
+	.text_v_phone_2 p {
+		font-size: 17px;
+	}
+
+	.aboutme {
+		width: 375px;
+		margin: 0 auto 270px auto;
+		padding-top: 49px;
+		padding-bottom: 61px;
+	}
+	.aboutme1 {
+		width: 334px;
+		margin: 0 auto;
+		display: grid;
+	}
+	.firts_about h2 {
+		font-size: 38px;
+		width: 334px;
+	}
+	.firts_about img {
+		width: 305px;
+		margin-top: 30px;
+	}
+	.second_about img {
+		width: 277px;
+		margin: 61px auto 0 auto;
+		display: flex;
+		justify-content: center;
+	}
+	.second_about p {
+		width: 337px;
+		margin: auto;
+	}
+
+	footer {
+		width: 344px;
+		margin: auto;
+	}
+	.first_footer {
+		width: 340px;
+		display: grid;
+		gap: 26px;
+	}
+	.logo_with_text ul {
+		margin-top: 10px;
+	}
+	.logo_with_text ul a {
+		font-size: 14px;
+	}
+	.links_footers {
+		display: grid;
+	}
+	.links_footers .enter_email {
+		width: 100%;
+	}
+	.links_footers a {
+		width: 83px;
+	}
+
+	.line {
+		margin-top: 22px;
+	}
+
+	.second_footer {
+		width: 331px;
+		margin: 22px auto 94px auto;
+		display: flex;
+		justify-content: space-between;
+	}
+	.second_footer span {
+		display: none;
+	}
+	.dropdown_content img {
+		width: 19px;
+		height: 18px;
+	}
+	.krestik {
+		text-align: right;
+	}
+	.line_dropdown {
+		border-top: 0.43px solid black;
+		margin-top: 4px;
+		width: 180px;
+	}
+	.text_dropdown {
+		display: grid;
+		gap: 28px;
+		margin-top: 5px;
+	}
+	.text_dropdown_content p {
+		font-family: 'Epilogue Regular';
+		font-size: 14px;
+		font-weight: 400;
+		color: black;
+		margin-left: 10px;
+	}
+	.dropdown {
+		display: inline-block;
+		position: relative;
+	}
+	.dropdown_content {
+		padding: 23px 40px 29px 26px;
+		background-color: #f1f1f1;
+
+		display: none;
+		position: absolute;
+		right: 0px;
+		z-index: 1;
+	}
+	.brans_dropdown {
+		display: flex;
+		gap: 6px;
+	}
+}
